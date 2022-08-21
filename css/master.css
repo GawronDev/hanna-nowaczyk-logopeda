@@ -1,14 +1,18 @@
 .visit-button {
-    background-color: #5199FF!important;
-    color: white!important;
+    background-color: #5199FF !important;
+    color: white !important;
 }
 
 .navbar-nav {
     width: 86%;
 }
 
+.top-margin-xs {
+    margin-top: 60px;
+}
+
 .active {
-    color: #5199FF!important;
+    color: #5199FF !important;
 }
 
 .top-margin {
@@ -25,12 +29,12 @@
 }
 
 .contact-link {
-    color: rgba(0,0,0,.55)!important;
+    color: rgba(0, 0, 0, .55) !important;
     margin-left: 30px;
 }
 
 .header-text {
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, .55);
     text-indent: 20px;
     margin-top: 20px;
 }
@@ -38,3 +42,43 @@
 .button-container {
     margin-top: 50px;
 }
+
+.header-img {
+    width: 100%;
+    z-index: 5;
+    -webkit-box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+    -moz-box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+    box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+}
+
+.no-pad {
+    padding-left: 0 !important;
+}
+
+.info-container {
+    background-color: #5199FF;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 430px;
+    row-gap: 10px;
+    padding: 14px 10px;
+    z-index: 8;
+    position: relative;
+    top: -50px;
+}
+
+.info-container * {
+    flex: 50%;
+}
+
+.info-container i {
+    margin-right: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-container {
+        width: auto;
+        position: relative;
+    }
+  }
