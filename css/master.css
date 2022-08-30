@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .visit-button {
     background-color: #5199FF !important;
     color: white !important;
@@ -76,9 +80,31 @@
     margin-right: 9px;
 }
 
+.top-sub {
+    color: #5199FF;
+}
+
+.section-header {
+    color: black;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.img-container {
+    width: 100%;
+    max-height: 400px;
+}
+
+.img-container img {
+    width: 100%;
+    -webkit-box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+    -moz-box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+    box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+}
+
 @media only screen and (max-width: 600px) {
     .info-container {
         width: auto;
         position: relative;
     }
-  }
+}
