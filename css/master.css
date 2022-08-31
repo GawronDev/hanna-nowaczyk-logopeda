@@ -124,7 +124,32 @@ body {
 }
 
 .cta h3 {
-    color: white!important;
+    color: white !important;
+}
+
+.offer-container {
+    text-align: center;
+}
+
+.offer-container h5 {
+    color: rgb(122, 122, 122);
+    font-weight: 300;
+
+}
+
+.offer-list li {
+    text-align: center;
+    display: block;
+    color: #5199FF;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.offer-list li:hover {
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+    color: #5199FF;
+    font-size: 2em;
 }
 
 .footer-20192 .links li {
@@ -196,6 +221,31 @@ body {
 .footer-20192 .cta h3 {
     font-size: 20px;
 }
+
+.map-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    -webkit-box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+    -moz-box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+    box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
+}
+
+.text-container {
+    margin-top: 25px;
+    text-align: center;
+    color:rgb(122, 122, 122)
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important
+}
+
 
 
 @media only screen and (max-width: 600px) {

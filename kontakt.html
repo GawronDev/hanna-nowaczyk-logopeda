@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/master.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Ikony  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Skontakuj się z nami!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hanna Nowaczyk</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Strona główna</a>
+                    <a class="nav-link" aria-current="page" href="zespol.html">Zespół</a>
+                    <a class="nav-link" href="oferta.html">Oferta</a>
+                    <a class="nav-link active" href="kontakt.html">Kontakt</a>
+                    <a class="nav-link" href="kontakt.html">Certyfikaty</a>
+                </div>
+                <button class="visit-button btn float-xl-end">Umów wizytę</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container top-margin">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="main-header">Skontakuj się z <span class="blue-col">NAMI</span>.</h1>
+            </div>
+
+            <div class="col-md-8">
+                <div class="img-container">
+                    <img src="images/terpia4.jpeg"
+                        alt="Zdjęcie przedstawiające Hanne Nowaczyk podczas pracy z klientem" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container top-margin">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2410.5495800073895!2d15.824390900000001!3d52.830481400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4706c7c05e790ba7%3A0x528b09564be94c51!2sWeso%C5%82a%202%2C%2066-530%20Drezdenko!5e0!3m2!1spl!2spl!4v1661938352969!5m2!1spl!2spl"
+                        width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="text-container">
+                    <p>Wesoła 2, 66-530 Drezdenko</p>
+                    <p>Telefon kontaktowy: 666 777 888</p>
+                    <p>hanna.nowaczyk@vp.pl</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row align-items-stretch justify-content-center no-gutters">
+                    <div class="form h-100 contact-wrap px-5">
+                        <h3>Formularz kontaktowy</h3>
+                        <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 form-group mb-3">
+                                    <label for="" class="col-form-label">Imie</label>
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="Twoje imie">
+                                </div>
+                                <div class="col-md-6 form-group mb-3">
+                                    <label for="" class="col-form-label">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Twój email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group mb-3">
+                                    <label for="budget" class="col-form-label">Temat</label>
+                                    <input type="text" class="form-control" name="subject" id="subject"
+                                        placeholder="Twój temat">
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-12 form-group mb-3">
+                                    <label for="message" class="col-form-label">Wiadomość</label>
+                                    <textarea class="form-control" name="message" id="message" cols="30" rows="4"
+                                        placeholder="Napisz swoją wiadomość"></textarea>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="form-group text-center">
+                                    <input type="submit" value="Wyślij"
+                                        class="px-4 visit-button btn float-xl-end">
+                                    <span class="submitting"></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-20192 top-margin">
+        <div class="site-section">
+            <div class="container">
+                <div class="cta d-block d-md-flex align-items-center px-5">
+                    <div>
+                        <h2 class="mb-0">Twój logopeda w Drezdenku</h2>
+                        <h3 class="text-dark">Zapraszamy do kontaku!</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="#" class="footer-logo">Hanna Nowaczyk</a>
+                        <p class="copyright">
+                            <small>&copy; 2022</small>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Przydatne Linki</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">Strona główna</a></li>
+                            <li><a href="#">Zespół</a></li>
+                            <li><a href="#">Oferta</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Kontakt</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">ul. Wesoła 2 66-530 Drezdenko</a></li>
+                            <li><a href="#">omnimail@omnimail.com</a></li>
+                            <li><a href="#">666 777 888</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Tagi</h3>
+                        <ul class="list-unstyled links">
+                            <li>Logopeda</li>
+                            <li>Terapia logopedyczna</li>
+                            <li>Logopeda Drezdenko</li>
+                            <li>Drezdenko</li>
+                            <li>Wada wymowy</li>
+                            <li>Terapia wad wymowy</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Informacje</h3>
+                        <div class="list-unstyled social">
+                            <p>Pariatur magna dolor elit ad excepteur sit sint magna culpa nulla mollit elit. Eiusmod
+                                quis nulla minim elit enim tempor. Qui qui laboris dolore labore eiusmod pariatur ut
+                                nostrud ipsum proident. Quis quis ipsum enim id mollit ad mollit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
