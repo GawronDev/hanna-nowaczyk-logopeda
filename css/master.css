@@ -101,44 +101,102 @@ body {
     box-shadow: 25px 25px 0px -5px rgba(183, 212, 255, 1);
 }
 
-footer {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    background-color: #5199FF;
-    padding: 25px;
+.footer-20192 {
+    position: relative;
+    padding: 7rem 0;
+    background-color: rgba(183, 212, 255, 1);
+}
+
+.footer-20192 .container {
+    position: relative;
+}
+
+.footer-20192 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.cta h2 {
     color: white;
 }
 
-.footer-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    border-bottom: 2px solid white;
-    flex-wrap: wrap;
+.cta h3 {
+    color: white!important;
 }
 
-.footer-list {
-    list-style-type: none;
-    text-align: center;
+.footer-20192 .links li {
+    margin-bottom: 10px;
+    color: black;
+    line-height: 1.5;
+    display: block;
 }
 
-.footer-list li {
+.footer-20192 .links li a {
+    color: black;
+}
+
+.footer-20192 .links li a:hover {
+    color: rgb(122, 122, 122);
+}
+
+.footer-20192 .social li {
     display: inline-block;
+    position: relative;
 }
 
-.footer-sub {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer-20192 .social li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #5199FF;
+    color: #fff;
 }
 
-.footer-sub a {
-    color: white;
+.footer-20192 .social li a>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
+.footer-20192 .footer-logo {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.footer-20192 .copyright {
+    color: #666873;
+}
+
+.footer-20192 .cta {
+    -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    padding: 20px;
+    background-color: #5199FF;
+    top: -150px;
+    position: relative;
+}
+
+.footer-20192 .cta h2,
+.footer-20192 .cta h3 {
+    line-height: 1.5;
+}
+
+.footer-20192 .cta h3 {
+    font-size: 20px;
+}
+
 
 @media only screen and (max-width: 600px) {
     .info-container {
