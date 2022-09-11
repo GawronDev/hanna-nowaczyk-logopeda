@@ -11,6 +11,10 @@ body {
     width: 86%;
 }
 
+.img-logo {
+    width: 40px;
+}
+
 .top-margin-xs {
     margin-top: 60px;
 }
@@ -142,14 +146,23 @@ body {
     display: block;
     color: #5199FF;
     font-size: 1.6em;
+    text-transform: uppercase;
     font-weight: 600;
+    margin-top: 15px;
+}
+
+.way-more-pad {
+    width: 30%!important;
 }
 
 .offer-list li:hover {
     transition: 0.2s ease-in-out;
     text-decoration: underline;
     color: #5199FF;
-    font-size: 2em;
+}
+
+.smaller-width {
+    width: 50%!important
 }
 
 .footer-20192 .links li {
