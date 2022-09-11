@@ -151,11 +151,16 @@ body {
     margin-top: 15px;
 }
 
+.offer-list a{
+    color: #5199FF;
+    text-decoration: none;
+}
+
 .way-more-pad {
     width: 30%!important;
 }
 
-.offer-list li:hover {
+.offer-list a:hover {
     transition: 0.2s ease-in-out;
     text-decoration: underline;
     color: #5199FF;

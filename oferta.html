@@ -23,7 +23,8 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="./images/logo.gif" class="img-logo" alt="Logo gabinetu logopedyczneg Hanny Nowaczyk w Drezdenku"/>
+                <img src="./images/logo.gif" class="img-logo"
+                    alt="Logo gabinetu logopedyczneg Hanny Nowaczyk w Drezdenku" />
                 Hanna Nowaczyk</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +38,8 @@
                     <a class="nav-link" href="kontakt.html">Kontakt</a>
                     <a class="nav-link" href="certyfikaty.html">Certyfikaty</a>
                 </div>
-                <button class="visit-button btn float-xl-end">Umów wizytę</button>
+                <button class="visit-button btn float-xl-end" onclick="location.href='kontakt.html'">Umów
+                    wizytę</button>
             </div>
         </div>
     </nav>
@@ -61,29 +63,313 @@
         <div class="offer-container">
             <h5>Kliknij w usługę aby dowiedzieć się wiecej</h5>
             <ul class="offer-list">
-                <li>terapia metodą Padovan</li>
-                <li>stymulacja słuchu metodą Johansena (badanie słuchu i przetwarzania słuchowego)</li>
-                <li>terapia EEG-Biofeedback</li>
-                <li>terapia metodą Warnkego - trening słuchowy, wzrokowy i motoryczny dla dzieci zagrożonych i/z dysleksją</li>
-                <li>terapia miofunkcjonalna</li>
-                <li>rehabilitacja i trening funkcji poznawczych za pomocą wspierającego systemu RehaCom</li>
-                <li>elektrostymulacja pacjentów z wadami twarzoczaszki</li>
-                <li>diagnoza i terapia dzieci z afazją za pomocą standaryzowanych testów KOJD-AFA;</li>
-                <li>nauka czytania i pisania metodą strukturalną</li>
-                <li>terapia komunikacji dzieci z niepełnosprawnością intelektualną- alternatywne metody komunikacji</li>
-                <li>terapia dzieci z wadami w budowie narządów anatomicznych (np. rozszczepy podniebienia)</li>
-                <li>terapia wad artykulacyjnych (seplenienie, rotacyzm, mowa bezdźwięczna)</li>
-                <li>terapia osób dorosłych po urazach neurologicznych (afazja, dysartria)</li>
-                <li>terapia osób starszych z chorobą demencyjną</li>
-                <li>terapia zaburzeń mowy wynikających z niewłaściwego funkcjonowania OUN (opóźnienia rozwojowe, alalia,
-                dysfazja, zespoły wad wrodzonych)</li>
-                <li>praca z niemowlętami, dziećmi z nieprawidłowej ciąży i porodu (stymulacja funkcji pokarmowych,
-                odruchów orofacjalnych)</li>
-                <li>nauka braile’a i języka migowego</li>
-
+                <li><a href="#padovan">terapia metodą Padovan</a></li>
+                <li><a href="#johansen">stymulacja słuchu metodą Johansena (badanie słuchu i przetwarzania
+                        słuchowego)</a></li>
+                <li><a href="#biofeedback">terapia EEG-Biofeedback</a></li>
+                <li><a href="#warnke">terapia metodą Warnkego - trening słuchowy, wzrokowy i motoryczny dla dzieci
+                        zagrożonych
+                        i/z
+                        dysleksją</a></li>
+                <li><a href="#miofunkcja">terapia miofunkcjonalna</a></li>
+                <li><a href="#rehacom">rehabilitacja i trening funkcji poznawczych za pomocą wspierającego systemu
+                        RehaCom</a>
+                </li>
+                <li><a href="#elektrostymulacja">elektrostymulacja pacjentów z wadami twarzoczaszki</a></li>
+                <li><a href="#padovan">diagnoza i terapia dzieci z afazją za pomocą standaryzowanych testów KOJD-AFA;</a></li>
+                <li><a href="#padovan">nauka czytania i pisania metodą strukturalną</a></li>
+                <li><a href="#padovan">terapia komunikacji dzieci z niepełnosprawnością intelektualną- alternatywne metody
+                        komunikacji</a></li>
+                <li><a href="#padovan">terapia dzieci z wadami w budowie narządów anatomicznych (np. rozszczepy
+                        podniebienia)</a></li>
+                <li><a href="#padovan">terapia wad artykulacyjnych (seplenienie, rotacyzm, mowa bezdźwięczna)</a></li>
+                <li><a href="#padovan">terapia osób dorosłych po urazach neurologicznych (afazja, dysartria)</a></li>
+                <li><a href="#padovan">terapia osób starszych z chorobą demencyjną</a></li>
+                <li><a href="#padovan">terapia zaburzeń mowy wynikających z niewłaściwego funkcjonowania OUN (opóźnienia
+                        rozwojowe, alalia,
+                        dysfazja, zespoły wad wrodzonych)</a></li>
+                <li><a href="#padovan">praca z niemowlętami, dziećmi z nieprawidłowej ciąży i porodu (stymulacja funkcji
+                        pokarmowych,
+                        odruchów orofacjalnych)</a></li>
+                <li><a href="#padovan">nauka braile’a i języka migowego</a></li>
+                <li><a href="#padovan">Metoda FDM</a></li>
+                <li><a href="#padovan">Pinoterapia</a></li>
+                <li><a href="#padovan">Suche igłowanie</a></li>
             </ul>
         </div>
     </div>
+
+    <div id="padovan" class="container top-margin-xs">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="top-sub">Opis terapii</span>
+                <h2 class="section-header">Neurofunkcjonalna Reorganizacja metodą Padovan</h2>
+                <p class="header-text">
+                    Twórczynią metody jest Brazylijka – Beatriz Alves de Ednair Padovan – ortodonta i logopeda. Obecnie
+                    jej badania naukowe i praktykę kontynuuje córka – Sonia Padovan – neurolog dziecięcy. Metoda
+                    neurofunkcjonalnej reorganizacji wg Beatrice Padovan zakłada, że w procesie terapii należy powtórzyć
+                    kolejne fazy neuroewolucyjnych wzorców rozwoju ruchowego, motoryki małej, pracy gałek ocznych,
+                    oddechu, słuchu, połykania , funkcji pokarmowych (ssanie i żucie). Dają one podstawę do rozwoju
+                    funkcji mowy (nadawanie przez prawidłowe ruchy aparatu artykulacyjnego) i myślenia.
+
+                    Terapia Padovan integruje pracę całego systemu nerwowego przez co zwiększa jego wydajność. Dochodzi
+                    do współpracy i połączenia trzech podstawowych sfer – RUCHU, MYŚLENIA I MOWY. W procesie terapii
+                    następuje odzyskanie brakujących umiejętności. Ćwiczeniom towarzyszy stymulacja słuchu poprzez śpiew
+                    i recytację wierszyków.
+
+                    Metoda jest bardzo skuteczna w leczeniu następujących zaburzeń:
+                <ul>
+                    <li>zaburzenia artykulacji</li>
+                    <li>zaburzenia rozwoju mowy</li>
+                    <li>zaburzenie rozumienia mowy</li>
+                    <li>dysgramatyka</li>
+                    <li>zaburzenia orofacjalne</li>
+                    <li>rozszczepy wargi i podniebienia</li>
+                    <li>zaburzenia głosu</li>
+                    <li>zaburzenia neurologiczne, np.: po udarze mózgu, dysartria, apraksja mowy, dysfagia</li>
+                    <li>dysleksja i dysgrafia</li>
+                    <li>ADHD</li>
+                    <li>niepełnosprawność intelektualna</li>
+                </ul>
+
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="images/terapia2.jpeg"
+                        alt="Dziecko uzywające profesjonalnego sprzętu w trakcie terapii 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="johansen" class="container top-margin-xs">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="top-sub">Opis terapii</span>
+                <h2 class="section-header">Indywidualna Stymulacja Słuchu metodą Johansena</h2>
+                <p class="header-text">
+                    Indywidualna Stymulacja Słuchu dr K. Johansena IAS znacznie poprawia przetwarzanie słuchowe oraz
+                    inne funkcje. Najważniejsze z nich to:
+                    rozumienie mowy,
+                    zdolność utrzymywania uwagi i koncentracji na wypowiedziach ustnych,
+                    artykulacja,
+                    komunikacja,
+                    mniejsza nadwrażliwość na dźwięki,
+                    pamięć,
+                    umiejętność czytania i pisania,
+                    samoocena,
+                    lepsze napięcie mięśniowe, co wpływa na postawę ciała, utrzymanie równowagi, koordynację ruchów i
+                    motorykę.
+                    efektywniejsza nauka języka obcego (przewidywane efekty: polepszenie akcentu, płynności
+                    wypowiedzi, rozumienia, krótszy czas nauki).
+
+                    Metoda skierowana jest do dzieci, młodzieży i dorosłych z zaburzeniami przetwarzania bodźców
+                    słuchowych, w szczególności do osób z następującymi trudnościami:
+
+                    ADHD,
+                    porażenie mózgowe,
+                    zaburzeniami ze spektrum autyzmu / zespołu Aspergera,
+                    zespół Downa i inne wady genetyczne,
+                    opóźniony rozwój mowy,
+                    trudności w zrozumieniu i zapamiętywaniu instrukcji i poleceń,
+                    zaburzona koncentracja uwagi,
+                    dysleksja, problemy szkolne,
+                    zaburzenia uwagi i percepcji słuchowej,
+                    nadwrażliwość na dźwięki,
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="images/terapia5.jpeg"
+                        alt="Dziecko uzywające profesjonalnego sprzętu w trakcie terapii 2" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="biofeedback" class="container top-margin-xs">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="top-sub">Opis terapii</span>
+                <h2 class="section-header">EEG-Biofeedback</h2>
+                <p class="header-text">
+                    Efekty terapii BIofeedback
+                    lepsza koncentracja, pamięć i uwaga,
+                    łatwiejsze podejmowanie decyzji,
+                    wzrost kreatywności,
+                    szybsze uczenie się,
+                    większa odporność na stres,
+                    zwiększenie pewności siebie / asertywności,
+                    poprawa samopoczucia,
+                    głębszy i łatwiej osiągalny relaks,
+                    zahamowanie lęków, tremy,
+                    lepsza integracja umysłu i ciała,
+                    lepsza samokontrola.
+                    Co to jest EEG Biofeedback
+
+                    Trening ma formę gry komputerowej, w której trenujący zdobywa punkty, gdy zacznie emitować pożądane
+                    dla siebie zakresy fal mózgowych. Dzięki temu mózg uczy się produkować prawidłowe fale mózgowe
+                    odpowiadające za koncentrację, pamięć, dobre samopoczucie, poziom stresu
+                    i nadpobudliwość. Dzięki treningowi można nauczyć się panować nad poszczególnymi funkcjami
+                    organizmu, które są kierowane przez autonomiczny układ nerwowy.
+
+                    Treningi EEG Biofeedback uczą nie tylko wyciszania, ale mają wpływ na to, że nauka i praca stają się
+                    bardziej przyjemne i wymagają mniej wysiłku. Jak wykazały badania naukowe efekty treningu są
+                    długotrwałe. Terapia EEG Biofeedback jest bezpieczna.
+                    Zastosowanie EEG Biofeedback
+                    W zaburzeniach takich jak:
+                    zaburzenia emocjonalne (lęki, natręctwa, tiki, depresja),
+                    zaburzenia psychosomatyczne o podłożu stresogennym,
+                    zaburzenia uwagi, koncentracji,
+                    problemy szkolne (m.in. gorsze wyniki w nauce, dysleksja, dysgrafia),
+                    nadpobudliwość psychoruchowa, zespoły ADHD, ADD,
+                    autyzm,
+                    przewlekłe bóle głowy i migreny,
+                    zespół chronicznego zmęczenia,
+                    w skutkach wylewów,
+                    moczenie nocne,
+                    uzależnienia.
+
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="images/terapia6.jpeg"
+                        alt="Dziecko uzywające profesjonalnego sprzętu w trakcie terapii 3" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="warnke" class="container top-margin-xs">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="top-sub">Opis terapii</span>
+                <h2 class="section-header">Metoda Warnkego</h2>
+                <p class="header-text">
+                    Metoda Warnkego skierowana jest do dzieci i dorosłych z:
+                    trudnościami w nauce,
+                    problemami w nauce czytania i pisania,
+                    dla dzieci zagrożonych i/z dysleksją
+                    zaburzeniami przetwarzania słuchowego,
+                    trudnościami w lateralizacji,
+                    problemami logopedycznymi (np. problemy z wymową).
+                    Metoda Warnkego jest skuteczna także w terapii osób jąkających się oraz chcących usprawnić:
+                    umiejętność czytania i pisania, funkcjonowanie mózgu po jego uszkodzeniu (np. po udarze).
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="images/terapia7.jpeg"
+                        alt="Dziecko uzywające profesjonalnego sprzętu w trakcie terapii 4" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="miofunkcja" class="container top-margin-xs">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="top-sub">Opis terapii</span>
+                <h2 class="section-header">Terapia miofunkcjonalna</h2>
+                <p class="header-text">
+                    Terapia miofunkcjonalna wg Anity Kittel pomaga skorygować nieprawidłową pracę mięśni języka, gardła
+                    oraz ust w czasie odpoczynku, przeżuwania i połykania.
+
+                    Efekt uzyskuje się dzięki odpowiednim ćwiczeniom mięśni języka, warg oraz całego ciała, wykonywanym
+                    systematycznie pod kontrolą terapeuty oraz kontynuowanym w domu.
+
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="images/terapia8.jpeg"
+                        alt="Dziecko uzywające profesjonalnego sprzętu w trakcie terapii 5" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="rehacom" class="container top-margin-xs">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="top-sub">Opis terapii</span>
+                <h2 class="section-header">System RehaCcom</h2>
+                <p class="header-text">
+                    RehaCom to komputerowy system wspierający rehabilitację i trening funkcji poznawczych. Moduły
+                    treningowe obejmują: uwagę, pamięć, funkcje wykonawcze, funkcje wzrokowe oraz koordynację
+                    wzrokowo-ruchową.
+                    Dla osób, u których uszkodzenie mózgu spowodowało deficyty w obrębie pracy mózgu oraz funkcji
+                    poznawczych. Czyli pacjenci, którzy mają problem z:
+
+                    pamięcią krótkotrwałą, długotrwałą, roboczą;
+                    koncentracją, skupieniem;
+                    operacjami myślowymi jak obliczanie, planowanie;
+                    koordynacją wzrokowo-ruchową;
+                    interpretowaniem bodźców wzrokowych i słuchowych;
+                    opóźnionym reagowaniem;
+                    szybkim przetwarzaniem informacji oraz uczeniem się nowych informacji;
+                    zaburzeniami w obrębie mowy i języka (tj. świadomość fonologiczna, sekwencjonowanie dźwięków,
+                    słuch fonematyczny);
+                    orientacją czasowo-przestrzenną.
+                    Głównym celem jest usprawnianie wyżej wymienionych funkcji. Zalecany także dla dzieci z autyzmem i
+                    ze spektrum autyzmu.
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="images/terapia9.jpeg"
+                        alt="Dziecko uzywające profesjonalnego sprzętu w trakcie terapii 6" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="elektrostymulacja" class="container top-margin-xs">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="top-sub">Opis terapii</span>
+                <h2 class="section-header">Elektrostymulacja Twarzoczaszki</h2>
+                <p class="header-text">
+                    WSKAZANIA DO ELEKTROSTYMULACJI:
+                    opóźniony rozwój mowy,
+                    obniżone napięcie mięśniowe w obrębie aparatu artykulacyjnego, słaba praca mięśnia okrężnego ust i
+                    języka,
+                    zaburzenia słuchu wynikające z dysfunkcji trąbki słuchowej,
+                    zaburzenia mowy u pacjentów z wadami twarzoczaszki,
+                    po usunięciu migdałków,
+                    po operacji rozszczepu podniebienia,
+                    przygotowanie do zabiegu faryngoplastyki.
+
+                    PRZECIWSKAZANIA DO ELEKTROSTYMULACJI:
+                    choroby neurologiczne (padaczka),
+                    choroby kardiologiczne,
+                    stałe aparaty ortodontyczne,
+                    zakażenia bakteryjne,
+                    implanty słuchowe,
+                    nowotwory,
+                    uszkodzenia skóry w miejscu zabiegu.
+
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="images/terapia10.jpeg"
+                        alt="Dziecko uzywające profesjonalnego sprzętu w trakcie terapii 7" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
